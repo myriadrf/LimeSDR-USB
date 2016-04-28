@@ -4,3 +4,6 @@
 [submodule "fx3"]
 	path = fx3
 	url = https://github.com/myriadrf/LimeSDR-USB_FX3.git
+[submodule "limesuite"]
+	path = limesuite
+	url = https://github.com/myriadrf/LimeSuite.git
