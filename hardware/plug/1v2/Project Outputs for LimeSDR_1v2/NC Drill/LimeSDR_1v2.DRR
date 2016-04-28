@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: LimeSDR_1v2.PcbDoc   2016-03-11  16:55:44
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top to Bottom
+ASCII RoundHoles File : LimeSDR_1v2-RoundHoles.TXT
+ASCII SlotHoles File : LimeSDR_1v2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             2074      PTH        3130.16mm (123.23inch)
+T2      0.381mm (15mil)                                           Round             5         PTH        3.47mm (0.14inch)
+T3      0.75mm (30mil)                                            Round             4         PTH        60.77mm (2.39inch)
+T4      0.8mm (31mil)                                             Slot              3         PTH        20.35mm (0.80inch)
+T5      0.9mm (35mil)                                             Round             8         PTH        16.75mm (0.66inch)
+T6      0.965mm (38mil)                                           Round             5         PTH        71.54mm (2.82inch)
+T7      1.25mm (49mil)                                            Round             5         PTH        20.02mm (0.79inch)
+T8      3mm (118mil)                                              Round             4         PTH        236.90mm (9.33inch)
+T9      1mm (39mil)                                               Round             14        NPTH       245.23mm (9.65inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              2122
+
+Total Processing Time (hh:mm:ss) : 00:00:02

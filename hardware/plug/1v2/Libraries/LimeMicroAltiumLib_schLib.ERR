@@ -1,0 +1,13 @@
+Component Rule Check Report for : E:\Saniok\Lime Micro\Lime PCBs\RF-uSpark_1v0\AltiumDesigner Design files\Libraries\LimeMicroAltiumLib_schLib.SchLib
+
+
+Name                Errors
+------------------------------------------------------------------
+AS4C64M16D2-25BCN   (Missing Pin Number In Sequence : A4,A5,A6 [A1..A9]) 
+AS4C128M16D3        (Missing Pin Number In Sequence : A4,A5,A6 [A1..A9]) 
+LMS7002M            (Duplicate Pin Number : Normal: GND) 
+                    (Missing Pin Number In Sequence : A8,A10,A11,A12,A14,A15,A16 [A7..A17]) 
+LMK00105            (Duplicate Pin Number : Normal: 7) 
+                    (Missing Pin Number In Sequence : 4 [1..25]) 
+Balun_v2            (Missing Pin Number In Sequence : 5 [2..6]) 
+Balun               (Missing Pin Number In Sequence : 5 [1..6]) 

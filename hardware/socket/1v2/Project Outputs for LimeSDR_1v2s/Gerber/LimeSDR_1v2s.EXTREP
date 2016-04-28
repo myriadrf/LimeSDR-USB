@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: LimeSDR_1v2s.GBR   2016-03-11  17:59:22
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                Top                                     
+.G1                 L2                                      
+.G2                 L3                                      
+.G3                 L4                                      
+.G4                 L5                                      
+.G5                 L6                                      
+.G6                 L7                                      
+.G7                 L8                                      
+.G8                 L9                                      
+.G9                 L10                                     
+.G10                L11                                     
+.GBL                Bottom                                  
+.GPB                Bottom Pad Master                       
+.GPT                Top Pad Master                          
+.GTO                TopOverlay                              
+.GTP                TopPaste                                
+.GTS                TopSolder                               
+.GBS                BottomSolder                            
+.GBP                BottomPaste                             
+.GBO                BottomOverlay                           
+.GM1                Mechanical1                             
+.GM14               ASM BOT                                 
+.GM15               ASM TOP                                 
+------------------------------------------------------------------------------------------

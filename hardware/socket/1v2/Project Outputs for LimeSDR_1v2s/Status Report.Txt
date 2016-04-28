@@ -1,0 +1,39 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 17:59:22 On 2016-03-11
+
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [LimeSDR_1v2s.PcbDoc]
+   Generated File[LimeSDR_1v2s.GTL]
+   Generated File[LimeSDR_1v2s.G1]
+   Generated File[LimeSDR_1v2s.G2]
+   Generated File[LimeSDR_1v2s.G3]
+   Generated File[LimeSDR_1v2s.G4]
+   Generated File[LimeSDR_1v2s.G5]
+   Generated File[LimeSDR_1v2s.G6]
+   Generated File[LimeSDR_1v2s.G7]
+   Generated File[LimeSDR_1v2s.G8]
+   Generated File[LimeSDR_1v2s.G9]
+   Generated File[LimeSDR_1v2s.G10]
+   Generated File[LimeSDR_1v2s.GBL]
+   Generated File[LimeSDR_1v2s.GPB]
+   Generated File[LimeSDR_1v2s.GPT]
+   Generated File[LimeSDR_1v2s.GTO]
+   Generated File[LimeSDR_1v2s.GTP]
+   Generated File[LimeSDR_1v2s.GTS]
+   Generated File[LimeSDR_1v2s.GBS]
+   Generated File[LimeSDR_1v2s.GBP]
+   Generated File[LimeSDR_1v2s.GBO]
+   Generated File[LimeSDR_1v2s.GM1]
+   Generated File[LimeSDR_1v2s.GM14]
+   Generated File[LimeSDR_1v2s.GM15]
+   Generated File[LimeSDR_1v2s.RUL]
+   Generated File[LimeSDR_1v2s.EXTREP]
+   Generated File[LimeSDR_1v2s.REP]
+
+
+Files Generated   : 26
+Documents Printed : 0
+
+Finished Output Generation At 17:59:45 On 2016-03-11
