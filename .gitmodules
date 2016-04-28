@@ -1,3 +1,6 @@
 [submodule "gateware"]
 	path = gateware
 	url = https://github.com/myriadrf/LimeSDR-USB_GW.git
+[submodule "fx3"]
+	path = fx3
+	url = https://github.com/myriadrf/LimeSDR-USB_FX3.git
