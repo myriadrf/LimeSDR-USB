@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\Saniok\Lime Micro\Lime PCBs\LimeSDR-USB_1v4s\Altium designer design files\PCB\LimeSDR-USB_1v4s.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=limesdr-usb_1v4s-roundholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=limesdr-usb_1v4s-slotholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,gbl

@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: LimeSDR-USB_1v4s.PcbDoc   2016-09-13  17:11:37
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top to Bottom
+ASCII RoundHoles File : LimeSDR-USB_1v4s-RoundHoles.TXT
+ASCII SlotHoles File : LimeSDR-USB_1v4s-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             2110      PTH        3312.58mm (130.42inch)
+T2      0.381mm (15mil)                                           Round             5         PTH        3.47mm (0.14inch)
+T3      0.75mm (30mil)                                            Round             4         PTH        60.77mm (2.39inch)
+T4      0.8mm (31mil)                                             Slot              3         PTH        20.35mm (0.80inch)
+T5      0.9mm (35mil)                                             Round             8         PTH        16.75mm (0.66inch)
+T6      0.965mm (38mil)                                           Round             5         PTH        71.54mm (2.82inch)
+T7      1mm (39mil)                                               Slot              2         PTH        26.50mm (1.04inch)
+T8      3mm (118mil)                                              Round             4         PTH        236.90mm (9.33inch)
+T9      1mm (39mil)                                               Round             12        NPTH       210.43mm (8.28inch)
+T10     1.1mm (43mil)                                             Round             2         NPTH       4.50mm (0.18inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              2155
+
+Total Processing Time (hh:mm:ss) : 00:00:02
