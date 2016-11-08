@@ -47,16 +47,26 @@ The directory structure is as follows:
           Project Outputs/       - BOM, rule check reports, Gerbers, pick & place files, PDFs
           Schematics/            - Schematic diagrams
 
-## Licensing
+### Revisions
 
-### Hardware
+The design databases published correspond to hardware revisions which have either gone into full production or been issued in limited number for testing in the community. 
 
-The hardware designs are licensed under a Creative Commons Attribution 3.0 Unported licence.
+Please note that only certain versions of FPGA firmware and FX3 firmware will work with a given hardware revision. For further details see the FPGA and FX3 projects.
 
-### FPGA design
+## Associated projects
 
-For details of the FPGA design licensing please see the associated COPYING file(s). However, please note that this does not extend to any files provided with the Altera design tools and see the relevant files for the associated terms and conditions.
+### FPGA gateware
+
+The FPGA gateware sources are located in the [LimeSDR-USB_GW repository](https://github.com/myriadrf/LimeSDR-USB_GW).
 
 ### FX3 firmware
 
-For details of the FX3 firmware licensing please see the associated COPYING file(s) and file headers.
+The Cypress FX3 USB 3.0 controller firmware sources are located in the [LimeSDR-USB_FX3 repository](https://github.com/myriadrf/LimeSDR-USB_FX3).
+
+### Host driver
+
+The host driver sources are located in the [LimeSuite repository](https://github.com/myriadrf/LimeSuite).
+
+## Licensing
+
+The hardware designs are licensed under a Creative Commons Attribution 3.0 Unported licence.
