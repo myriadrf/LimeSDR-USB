@@ -30,7 +30,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for LimeSDR-USB_1v4
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=2ECE73BD-F6F1-4025-997E-9D7B03CDF58F
 
@@ -507,7 +507,7 @@ Variant=[No Variations]
 OutputJobsCount=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for LimeSDR-USB_1v4
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs

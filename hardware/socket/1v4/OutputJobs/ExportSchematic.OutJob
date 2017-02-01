@@ -259,7 +259,7 @@ Configuration16_Name1=OutputConfigurationParameter1
 Configuration16_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 
 [PublishSettings]
-OutputFilePath2=D:\Aleksandr\Desktop\atnaujinimas\LimeSDR-USB_1v4s_DFMr5_LMS031pad\Project Outputs for LimeSDR-USB_1v4s\LimeSDR-USB_1v4s_schematic_r3.PDF
+OutputFilePath2=E:\Saniok\Lime Micro\Lime PCBs\LimeSDR-USB_1v4s\FINAL_VERSION_DFM\LimeSDR-USB_1v4s_DFMr8_LMS031pad\Project Outputs for LimeSDR-USB_1v4s\LimeSDR-USB_1v4s_schematic_r6.PDF
 ReleaseManaged2=1
 OutputBasePath2=Project Outputs for LimeSDR-USB_1v4s
 OutputPathMedia2=
@@ -267,7 +267,7 @@ OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=LimeSDR-USB_1v4s_schematic_r4.PDF
+OutputFileName2=LimeSDR-USB_1v4s_schematic_r7.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
@@ -336,7 +336,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=D:\Aleksandr\Desktop\atnaujinimas\LimeSDR-USB_1v4s_DFMr5_LMS031pad\Project Outputs for LimeSDR-USB_1v4s\LimeSDR-USB_1v4s_schematic_r3.PDF
+RelativeOutputPath2=E:\Saniok\Lime Micro\Lime PCBs\LimeSDR-USB_1v4s\FINAL_VERSION_DFM\LimeSDR-USB_1v4s_DFMr8_LMS031pad\Project Outputs for LimeSDR-USB_1v4s\LimeSDR-USB_1v4s_schematic_r6.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
