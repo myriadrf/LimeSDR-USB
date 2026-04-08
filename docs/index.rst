@@ -10,18 +10,19 @@ Introduction
    reference/index
    HF
    developer
+.. tabs::
+    
+  .. tab:: LimeSDR USB Type A
 
-.. tab:: LimeSDR USB Type A
+    .. figure:: /images/LimeSDR_1v4s.png
+        :align: center
+        :width: 600
 
-   .. figure:: /images/LimeSDR_1v4s.png
-      :align: center
-      :width: 600
+  .. tab:: LimeSDR USB Type Micro-B
 
-.. tab:: LimeSDR USB Type Micro-B
-
-   .. figure:: /images/LimeSDR_1v4.png
-      :align: center
-      :width: 600
+    .. figure:: /images/LimeSDR_1v4.png
+        :align: center
+        :width: 600
 
 The LimeSDR USB is a software-defined radio (SDR), with 2T2R MIMO capability and covering frequency range from 30 MHz to 2.6 GHz, with up to 61.44 MHz bandwidth. It is designed for flexible, wideband wireless communication development and experimentation.
 

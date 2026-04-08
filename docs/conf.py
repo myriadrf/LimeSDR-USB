@@ -48,11 +48,10 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.mathjax',
     'sphinx-mathjax-offline',
-    #'sphinx_code_tabs',
+    'sphinx_code_tabs',
     'sphinx_rtd_theme',
     'notfound.extension',
     'myst_parser',
-    'sphinx_inline_tabs'
 ]
 
 # Allow same section headings and thus labels to be used across documents.
