@@ -24,7 +24,7 @@ Introduction
         :align: center
         :width: 600
 
-The LimeSDR USB is a software-defined radio (SDR), with 2T2R MIMO capability and covering frequency range from 30 MHz to 2.6 GHz, with up to 61.44 MHz bandwidth. It is designed for flexible, wideband wireless communication development and experimentation.
+The LimeSDR USB is a software-defined radio (SDR), with 2T2R MIMO capability and covering frequency range from 100 kHz to 3.8 GHz, with up to 61.44 MHz bandwidth. It is designed for flexible, wideband wireless communication development and experimentation.
 
 The LimeSDR-USB development board provides a hardware platform for developing and prototyping high-performance and logic-intensive digital and RF designs using Altera’s Cyclone IV FPGA and Lime Microsystems transceiver.
 
@@ -47,7 +47,7 @@ RF
      - MIMO (2T2R)
      - Full duplex
    * - Frequency Range
-     - 30 MHz – 2.6 GHz
+     - 100 kHz – 3.8 GHz
      - Continuous coverage
    * - Bandwidth
      - up to 61.44 MHz
@@ -159,7 +159,7 @@ Memory
 Connections
 ===========
 
-* microUSB3.0 (type B) connector or USB3.0 (type A) plug
+* Micro USB 3.0 (type B) connector or USB 3.0 (type A) plug
 * Coaxial RF (U.FL) connectors
 * FPGA GPIO headers (0.05” pitch)
 * FPGA and FX3 JTAG connectors (0.05” pitch)
