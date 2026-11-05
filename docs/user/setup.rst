@@ -4,12 +4,14 @@ Hardware Setup
 Host Interface
 **************
 
-LimeSDR USB should be connected to the host device via USB interface. Type Micro-B version (v1.x) should use cable with USB 3.0 type Micro-B connector on one end. Type A version (v1.xs) can be directly plugged into the USB type A socket. 
+LimeSDR USB should be connected to the host device via USB. Micro-B versions (v1.4, v1.2) should use a cable with a USB 3.0 Micro-B connector on one end. Type A versions (v1.4s, v1.2s) can be plugged directly into a USB Type-A socket.
 
-The host must provide a USB 2.0 or higher interface, and supply power (5V, 900 mA) via the USB connection.
+The host must provide a USB 3.0 interface, which supplies up to 900 mA at 5 V. A USB 2.0 port can also be used, but it only guarantees 500 mA, which may not be enough in some configurations and limits the data transfer rate.
 
-.. note:: 
- A USB 3.0 interface is required to achieve the maximum supported data transfer rate.
+External Power
+**************
+
+In applications where USB power is insufficient, the board can be powered from an external 6–12 V DC supply connected to the DC jack (J20 on v1.4, J15 on v1.2) using a 1.35 mm ID, 3.5 mm OD plug. The board automatically selects between USB and external power, with reverse polarity protection. The external power pin header (J21 on v1.4, J16 on v1.2) is not fitted by default.
 
 Cooling
 *******
@@ -18,6 +20,11 @@ Depending on the application, host system and ambient temperature, additional co
 
 .. note::
    In the event of errors, instability or reduced performance, check the board temperature to ensure that it is within the specified operating range.
+
+Fan Connection
+==============
+
+A 3.3 V fan can be connected to the 1.27 mm pitch fan connector (J14 on v1.4, J20 on v1.2). A footprint for a 2.54 mm pitch connector (J13 on v1.4, J19 on v1.2) is also provided, but not fitted by default. The fan is switched on and off by the FPGA according to the board temperature, see :doc:`/reference/v1.4/tempsensor`.
 
 Acrylic Case
 ************
@@ -30,9 +37,11 @@ RF Connections
 .. figure:: /images/LimeSDR-USB_v1.4s_RFCON.png
   :width: 600
   
-  Figure 8: LimeSDR USB board top with RF connector positions
+  Figure 3. LimeSDR USB v1.4s board top with RF connector positions
 
-.. list-table:: Table 1. RF connectors
+Figure 3 shows the RF connector positions on LimeSDR USB v1.4s. LimeSDR USB v1.2 boards use different connector designators, which are listed in Table 2.
+
+.. list-table:: Table 2. RF connectors
     :header-rows: 1
     :stub-columns: 1
 
