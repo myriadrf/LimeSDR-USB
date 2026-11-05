@@ -32,46 +32,60 @@ RF Connections
   
   Figure 8: LimeSDR USB board top with RF connector positions
 
-.. list-table:: Table 1. RF Connectors
+.. list-table:: Table 1. RF connectors
     :header-rows: 1
     :stub-columns: 1
 
-    * - Connector
-      - Frequency Range
-      - Notes
-    * - J1
-      - 0.03 GHz - 1.9 GHz
-      - Channel 1 transmit low frequency range
-    * - J2
-      - 2 GHz - 2.6 GHz
-      - Channel 1 transmit high frequency range
-    * - J3
-      - 0.7 GHz - 0.9 GHz
-      - Channel 1 receive low frequency range
-    * - J4
-      - 0.7 GHz - 2.6 GHz
-      - Channel 1 receive wide frequency range
-    * - J5
-      - 2 GHz - 2.6 GHz
-      - Channel 1 receive high frequency range  
-    * - J6
-      - 0.03 GHz - 1.9 GHz
-      - Channel 2 transmit low frequency range
-    * - J7
-      - 2 GHz - 2.6 GHz
-      - Channel 2 transmit high frequency range
-    * - J8
-      - 0.7 GHz - 0.9 GHz
-      - Channel 2 receive low frequency range
-    * - J9
-      - 0.7 GHz - 2.6 GHz
-      - Channel 2 receive wide frequency range
-    * - J10
-      - 2 GHz - 2.6 GHz
-      - Channel 2 receive high frequency range  
+    * - RF port
+      - Connector (v1.4)
+      - Connector (v1.2)
+      - Recommended range
+    * - TX1_1
+      - J1
+      - J1
+      - Below 2 GHz
+    * - TX1_2
+      - J2
+      - J3
+      - 2 GHz and above
+    * - RX1_L
+      - J3
+      - J5
+      - Below 1.5 GHz
+    * - RX1_W
+      - J5
+      - J9
+      - 1.5 GHz to 2.2 GHz
+    * - RX1_H
+      - J4
+      - J7
+      - 2.2 GHz and above
+    * - TX2_1
+      - J6
+      - J2
+      - Below 2 GHz
+    * - TX2_2
+      - J7
+      - J4
+      - 2 GHz and above
+    * - RX2_L
+      - J8
+      - J6
+      - Below 1.5 GHz
+    * - RX2_W
+      - J10
+      - J10
+      - 1.5 GHz to 2.2 GHz
+    * - RX2_H
+      - J9
+      - J8
+      - 2.2 GHz and above
 
 .. note::
-  It is possible to improve HF (<30 MHz) performance. Please see :ref:`HF` for more information.
+  The recommended frequency ranges are approximate values that cover most use cases, not hard limits of the RF paths. The optimum path may vary depending on other factors, such as the antenna and RF front-end parameters.
+
+.. note::
+  For HF applications (below 30 MHz), refer to :ref:`HF` for recommended matching network modifications.
 
 .. warning::
    Care should be taken when connecting external RF signals to the RX inputs, to ensure that the maximum safe input power of +10 dBm is not exceeded, as this may cause permanent damage to the device.

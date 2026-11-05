@@ -19,19 +19,41 @@ Table A gives a number of examples on how the RX1_L input can be modified from t
 
 The measured performance of the networks of Table A are shown in Figure 1 and Figure 2.
 
-.. table:: Table A. Component Values for the LimeSDR RX1_L input.
+The matching network component references differ between board versions, so select the tab for your board version. The component values are the same for both versions.
 
-  +--------------------------+----------+-------+-------+--------+-------+
-  |                          |   MN19   |  MN17 |  MN20 |  MN18  |  C14  |
-  +==========================+==========+=======+=======+========+=======+
-  | Default (900MHz)         | 1.2pF    | 510pF | 510pF | 8.2nH  | 470pF |
-  +--------------------------+----------+-------+-------+--------+-------+
-  | EasyFix1                 | 1.2pF    | 510pF | 510pF | Remove | 470pF |
-  +--------------------------+----------+-------+-------+--------+-------+
-  | EasyFix2                 | Remove   | 100nF | 100nF | Remove | 100nF |
-  +--------------------------+----------+-------+-------+--------+-------+
-  | Broadband (100kH-400Mhz) | 1pF//82R | 8.2nH | 8.2nH | 1pF    | 100n  |
-  +--------------------------+----------+-------+-------+--------+-------+
+.. tabs::
+
+  .. tab:: LimeSDR USB v1.4
+
+    .. table:: Table A. Component Values for the LimeSDR USB v1.4 RX1_L input.
+
+      +--------------------------+----------+-------+-------+--------+-------+
+      |                          | MN19     | MN17  | MN20  | MN18   | C14   |
+      +==========================+==========+=======+=======+========+=======+
+      | Default (900MHz)         | 1.2pF    | 510pF | 510pF | 8.2nH  | 470pF |
+      +--------------------------+----------+-------+-------+--------+-------+
+      | EasyFix1                 | 1.2pF    | 510pF | 510pF | Remove | 470pF |
+      +--------------------------+----------+-------+-------+--------+-------+
+      | EasyFix2                 | Remove   | 100nF | 100nF | Remove | 100nF |
+      +--------------------------+----------+-------+-------+--------+-------+
+      | Broadband (100kH-400Mhz) | 1pF//82R | 8.2nH | 8.2nH | 1pF    | 100n  |
+      +--------------------------+----------+-------+-------+--------+-------+
+
+  .. tab:: LimeSDR USB v1.2
+
+    .. table:: Table A. Component Values for the LimeSDR USB v1.2 RX1_L input.
+
+      +--------------------------+----------+-------+-------+--------+-------+
+      |                          | MN35     | MN33  | MN37  | MN34   | C16   |
+      +==========================+==========+=======+=======+========+=======+
+      | Default (900MHz)         | 1.2pF    | 510pF | 510pF | 8.2nH  | 470pF |
+      +--------------------------+----------+-------+-------+--------+-------+
+      | EasyFix1                 | 1.2pF    | 510pF | 510pF | Remove | 470pF |
+      +--------------------------+----------+-------+-------+--------+-------+
+      | EasyFix2                 | Remove   | 100nF | 100nF | Remove | 100nF |
+      +--------------------------+----------+-------+-------+--------+-------+
+      | Broadband (100kH-400Mhz) | 1pF//82R | 8.2nH | 8.2nH | 1pF    | 100n  |
+      +--------------------------+----------+-------+-------+--------+-------+
 
 .. figure:: /images/LimeSDR_HF_Match_Fig1.png
 
@@ -43,21 +65,39 @@ Figure 1 shows the digital output level of the receiver in dBFS, as the input fr
 
   Figure 2 Return Loss and VSWR for Broadband Matching network of Table A.
 
-Figure 2 shows the Return Loss and VSWR of the Broadband network from 20MHz to 500MHz. The matching network forms a terminated differential transmission line, and has good performance from 30MHz to 400MHz. The lower frequency is set by the 100nF capacitor C14. Note 1pF and 82R resistor are in parallel and soldered on top of each other. The Noise figure of the same network was measured on an evaluation board and found to be 10dB at 30MHz and 6dB at 100MHz. It is possible to further optimize component values in circuit simulators such as NGSPICE and other simulators to trade noise figure, gain and return loss.
+Figure 2 shows the Return Loss and VSWR of the Broadband network from 20MHz to 500MHz. The matching network forms a terminated differential transmission line, and has good performance from 30MHz to 400MHz. The lower frequency is set by the 100nF capacitor C14 (C16 on v1.2). Note 1pF and 82R resistor are in parallel and soldered on top of each other. The Noise figure of the same network was measured on an evaluation board and found to be 10dB at 30MHz and 6dB at 100MHz. It is possible to further optimize component values in circuit simulators such as NGSPICE and other simulators to trade noise figure, gain and return loss.
 
 The broadband matching network can also be applied to the wideband ports of the LimeSDR. Table B shows some example component values that can be used on RX1_W and RX2_W. In Figure 3 we show results for the matching networks of Table B. Here, the LNA gain is set to 0 (Maximum), and the PGA gain is set to +19dB. The observed behaviour is very similar to that seen for RX1_L. Both networks give reasonable return loss below 400MHz.
 
-.. table:: Table B Component Values for the LimeSDR
+.. tabs::
 
-  +-------+------+-------+-------+-------+-------+
-  |       | MN27 |  MN14 |  MN28 |  MN26 |  C23  |
-  +=======+======+=======+=======+=======+=======+
-  | RX1_W | 75R  | 8.2nH | 8.2nH | 1.8pF | 100nF |
-  +-------+------+-------+-------+-------+-------+
-  |       | MN55 |  MN53 |  MN56 |  MN54 |  C43  |
-  +-------+------+-------+-------+-------+-------+
-  | RX2_W | 100R | 0R    | 0R    | 2pF   | 100nF |
-  +-------+------+-------+-------+-------+-------+
+  .. tab:: LimeSDR USB v1.4
+
+    .. table:: Table B. Component Values for the LimeSDR USB v1.4 RX1_W and RX2_W inputs.
+
+      +-------+----------+----------+----------+----------+---------+
+      |       | **MN27** | **MN25** | **MN28** | **MN26** | **C23** |
+      +=======+==========+==========+==========+==========+=========+
+      | RX1_W | 75R      | 8.2nH    | 8.2nH    | 1.8pF    | 100nF   |
+      +-------+----------+----------+----------+----------+---------+
+      |       | **MN55** | **MN53** | **MN56** | **MN54** | **C43** |
+      +-------+----------+----------+----------+----------+---------+
+      | RX2_W | 100R     | 0R       | 0R       | 2pF      | 100nF   |
+      +-------+----------+----------+----------+----------+---------+
+
+  .. tab:: LimeSDR USB v1.2
+
+    .. table:: Table B. Component Values for the LimeSDR USB v1.2 RX1_W and RX2_W inputs.
+
+      +-------+----------+----------+----------+----------+---------+
+      |       | **MN51** | **MN49** | **MN53** | **MN50** | **C20** |
+      +=======+==========+==========+==========+==========+=========+
+      | RX1_W | 75R      | 8.2nH    | 8.2nH    | 1.8pF    | 100nF   |
+      +-------+----------+----------+----------+----------+---------+
+      |       | **MN55** | **MN52** | **MN56** | **MN54** | **C21** |
+      +-------+----------+----------+----------+----------+---------+
+      | RX2_W | 100R     | 0R       | 0R       | 2pF      | 100nF   |
+      +-------+----------+----------+----------+----------+---------+
 
 .. figure:: /images/LimeSDR_HF_Match_Fig3.png
 

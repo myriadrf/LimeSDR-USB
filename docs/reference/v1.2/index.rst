@@ -7,6 +7,7 @@ v1.2
    
    overview
    digital
+   rfcontrol
    clock
    usb
    leds
