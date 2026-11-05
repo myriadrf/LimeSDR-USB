@@ -3,7 +3,7 @@ Board Versions
 
 There are currently two versions of the LimeSDR USB board: v1.4 and v1.2. Each version is available with a USB 3.0 Micro-B socket (v1.4, v1.2) or with a USB 3.0 Type A plug (v1.4s, v1.2s). Apart from the USB connector, boards with and without the letter "s" are electrically identical.
 
-v1.4, v1.4s, v1.2 and v1.2s boards are supported by the same software. LimeSDR USB v1.4 adds new hardware features, which are listed in Table 1.
+v1.4, v1.4s, v1.2 and v1.2s boards are supported by the same software. New hardware features added in each board version are listed in Table 1.
 
 .. list-table:: Table 1. New features in each board version
    :header-rows: 1

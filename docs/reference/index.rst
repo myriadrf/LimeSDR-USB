@@ -1,10 +1,10 @@
 Hardware Reference
 ##################
 
-The LimeSDR USB Hardware Reference manual is organised into separate sections for each board revision. 
+The LimeSDR USB Hardware Reference manual is organised into separate sections for each board version.
 
 .. note::
-  Version identifying text is printed on top side near RF connectors.
+  The board version is printed on the top side of the board, near the RF connectors.
 
 .. toctree::
    :maxdepth: 1

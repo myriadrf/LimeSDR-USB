@@ -29,14 +29,14 @@ A 3.3 V fan can be connected to the 1.27 mm pitch fan connector (J14 on v1.4, J2
 Acrylic Case
 ************
 
-Please see `acrylic case and assembly guide`_ for acrylic case design files and instructions how to assemble it.
+Please see the `acrylic case and assembly guide`_ for the case design files and assembly instructions.
 
 RF Connections
 **************
 
 .. figure:: /images/LimeSDR-USB_v1.4s_RFCON.png
   :width: 600
-  
+
   Figure 3. LimeSDR USB v1.4s board top with RF connector positions
 
 Figure 3 shows the RF connector positions on LimeSDR USB v1.4s. LimeSDR USB v1.2 boards use different connector designators, which are listed in Table 2.

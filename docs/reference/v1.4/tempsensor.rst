@@ -1,22 +1,22 @@
-Board temperature control
+Board Temperature Control
 #########################
 
-LimeSDR-USB has integrated temperature sensor which controls FAN to keep board in operating temperature range. FAN must be connected to J13 (0.1” pitch) connector or to J14 (0.05” pitch) connector. FAN control voltage is 3.3V.
+LimeSDR USB has an integrated temperature sensor, which is used to control the fan to keep the board within its operating temperature range. The fan must be connected to the J14 (0.05” pitch) connector or to the J13 (0.1” pitch, not fitted) connector. The fan supply voltage is 3.3 V.
 
-Fan will be turned on if board will heat up to 55°C and FAN will be turned off if board will cool down to 45°C.
+The fan is switched on when the board heats up to 55 °C, and switched off when the board cools down to 45 °C.
 
 
 
 .. figure:: /images/LimeSDR-USB_1v4_fan_control_hyst.png
   :width: 600
-  
-  Figure 11: FAN control temperature hysteresis 
 
-Measured temperature value can read by using LimeSuiteGUI.
+  Figure 11. Fan control temperature hysteresis
 
-Connect the fan as shown in the picture bellow.
+The measured temperature can be read using the Lime Suite NG GUI (limeGUI).
+
+Connect the fan as shown in Figure 12.
 
 .. figure:: /images/LimeSDR-USB_v1.4_Fan.png
   :width: 600
-  
-  Figure 12: FAN connection to the 1.27mm header, J14
+
+  Figure 12. Fan connection to the 1.27 mm header J14
