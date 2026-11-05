@@ -24,7 +24,7 @@ These signals are used for the following functions within the LMS7002 RFIC:
 LMS7002M Pins
 *************
 
-.. list-table:: Table 2. LMS7002M RF transceiver digital interface pins
+.. list-table:: Table 4. LMS7002M RF transceiver digital interface pins
    :header-rows: 1
    :stub-columns: 1
 

@@ -18,7 +18,7 @@ External reference clock frequency range is 5 MHz - 400 MHz. For frequencies les
 
 The programmable clock generator (Si5351C) can generate any reference clock frequency, starting from 8 kHz – 160 MHz, for FPGA and LMS PLLs.
 
-.. table:: Table 5. LimeSDR USB main clock lines
+.. table:: Table 7. LimeSDR USB main clock lines
 
   +-------------------------------------+------------------------+--------------+------------------+-------------+
   | **Source**                          | **Schematic net name** | **FPGA pin** | **I/O standard** | **Comment** |

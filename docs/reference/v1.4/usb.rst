@@ -12,7 +12,7 @@ Software controls LimeSDR USB board via the USB3 microcontroller (CYUSB3014 (FX3
 * SW1 – resets FX3
 * J16 – FX3 JTAG programming/debugging pin header.
 
-.. list-table:: Table 6. USB3 controller (FX3) pins
+.. list-table:: Table 8. USB3 controller (FX3) pins
    :header-rows: 1
 
    * - FX3

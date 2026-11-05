@@ -3,7 +3,7 @@ GPIO Connector
 
 Eight GPIOs from FPGA are connected to 10 pin 0.05” header. Additional 2 pins are dedicated for power. FPGA_GPIO related information is presented in the table below.
 
-.. list-table:: Table 12. FPGA GPIO connector (J3) pins
+.. list-table:: Table 14. FPGA GPIO connector (J3) pins
    :header-rows: 1
    :stub-columns: 1
 

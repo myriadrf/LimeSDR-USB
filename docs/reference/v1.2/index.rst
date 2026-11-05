@@ -6,6 +6,7 @@ v1.2
    :hidden:
    
    overview
+   fpga
    digital
    rfcontrol
    clock

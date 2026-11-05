@@ -10,7 +10,7 @@ LimeSDR USB board comes with four dual colour (red and green (RG)) indication LE
 
 Each LED has it is own function. Most of LEDs are connected to FPGA and their function can be changed. Default LEDs functions and other information are listed in the table below.
 
-.. table:: Table 7. Default LEDs configuration
+.. table:: Table 9. Default LEDs configuration
 
   +---------------------+--------------------+-----------------+-------------------+--------------------------------------------------------------------------------+
   | **Board reference** | **Schematic name** | **Board label** | **Type**          | **Description**                                                                |

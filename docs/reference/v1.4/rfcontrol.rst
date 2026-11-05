@@ -11,12 +11,12 @@ The RF network contains matching networks, RF switches, two loopback variable at
 Frequency Range
 ===============
 
-Each LMS7002M RF transceiver TX and RX port is connected to a dedicated RF path, and the appropriate path should be selected according to the operating frequency. On the receive side, the low-band paths (RX1_L, RX2_L) are recommended for frequencies below 1.5 GHz, the wideband paths (RX1_W, RX2_W) for 1.5 GHz to 2.2 GHz and the high-band paths (RX1_H, RX2_H) for frequencies of 2.2 GHz and above. On the transmit side, the TX1_1 and TX2_1 paths are recommended for frequencies below 2 GHz and the TX1_2 and TX2_2 paths for frequencies of 2 GHz and above. The recommended frequency ranges for all ports are summarised in Table 3.
+Each LMS7002M RF transceiver TX and RX port is connected to a dedicated RF path, and the appropriate path should be selected according to the operating frequency. On the receive side, the low-band paths (RX1_L, RX2_L) are recommended for frequencies below 1.5 GHz, the wideband paths (RX1_W, RX2_W) for 1.5 GHz to 2.2 GHz and the high-band paths (RX1_H, RX2_H) for frequencies of 2.2 GHz and above. On the transmit side, the TX1_1 and TX2_1 paths are recommended for frequencies below 2 GHz and the TX1_2 and TX2_2 paths for frequencies of 2 GHz and above. The recommended frequency ranges for all ports are summarised in Table 5.
 
 .. note::
    The recommended frequency ranges are approximate values that cover most use cases, not hard limits of the RF paths. The optimum path may vary depending on other factors, such as the antenna and RF front-end parameters.
 
-.. list-table:: Table 3. LMS7002M RF transceiver ports and recommended frequency ranges
+.. list-table:: Table 5. LMS7002M RF transceiver ports and recommended frequency ranges
    :header-rows: 1
 
    * - RF transceiver port
@@ -44,9 +44,9 @@ Each LMS7002M RF transceiver TX and RX port is connected to a dedicated RF path,
 Control
 =======
 
-In each channel, the TX1_2/TX2_2 output and the RX1_H/RX2_H input can be connected together through a loopback path with a variable attenuator. The RF switches and the loopback attenuators are controlled by FPGA outputs in Banks 7 and 8 (VDIO_LMS_FPGA, 2.5 V by default). RF network control signals are described in Table 4.
+In each channel, the TX1_2/TX2_2 output and the RX1_H/RX2_H input can be connected together through a loopback path with a variable attenuator. The RF switches and the loopback attenuators are controlled by FPGA outputs in Banks 7 and 8 (VDIO_LMS_FPGA, 2.5 V by default). RF network control signals are described in Table 6.
 
-.. table:: Table 4. RF network control signals
+.. table:: Table 6. RF network control signals
 
   +-------------------------------+---------------------------+------------------+--------------+--------------------------------+
   | **Component**                 | **Schematic signal name** | **I/O standard** | **FPGA pin** | **Description**                |

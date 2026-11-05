@@ -33,7 +33,7 @@ There are several SPI interfaces with their slave devices:
 
 SPI interfaces, connected to the FPGA are listed in the tables bellow.
 
-.. list-table:: Table 8. FPGA_SPI0 interface pins
+.. list-table:: Table 10. FPGA_SPI0 interface pins
    :header-rows: 1
 
    * - Schematic net name
@@ -57,7 +57,7 @@ SPI interfaces, connected to the FPGA are listed in the tables bellow.
      - 2.5V
      - IC1 (LMS7002M) SPI slave select
 
-.. list-table:: Table 9. FPGA_SPI1 interface pins
+.. list-table:: Table 11. FPGA_SPI1 interface pins
    :header-rows: 1
 
    * - Schematic net name
@@ -83,7 +83,7 @@ SPI interfaces, connected to the FPGA are listed in the tables bellow.
 
 FX3 MCU features I2C interface. Slave devices and related information, connected to this interface, are listed in the table bellow.
 
-.. list-table:: Table 10. FX3 I2C interface pins
+.. list-table:: Table 12. FX3 I2C interface pins
    :header-rows: 1
   
    * - I2C slave device reference
