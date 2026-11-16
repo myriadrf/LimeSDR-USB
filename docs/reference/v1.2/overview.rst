@@ -1,31 +1,31 @@
 Overview
 ########
 
-The heart of the LimeSDR-USB board is Altera Cyclone IV (`EP4CE40F23C8N`_) FPGA. Its main function is to transfer digital data between LMS7002M RF transceiver and the PC through a USB 3.0 connector. The block diagram for LimeSDR USB board is presented in the Figure 3.
+The heart of the LimeSDR USB board is the Altera Cyclone IV (`EP4CE40F23C8N`_) FPGA. Its main function is to transfer digital data between the LMS7002M RF transceiver and the PC through a USB 3.0 connector. The LimeSDR USB board block diagram is presented in Figure 3.
 
 .. figure:: /images/LimeSDR-USB_v1.2_Block_Diagram.jpg
   :width: 600
 
-  Figure 3: LimeSDR USB v1.2 board block diagram
+  Figure 3. LimeSDR USB v1.2 board block diagram
 
-This section contains component location description on the board. LimeSDR USB v1.2 board picture with highlighted connectors and main components are presented in Figure 4, Figure 5 and Figure 6, respectively.
+This section describes the locations of components on the board. LimeSDR USB v1.2 board pictures with highlighted connectors and main components are presented in Figure 4, Figure 5 and Figure 6.
 
 .. figure:: /images/LimeSDR-USB_v1.2_components_con.jpg
   :width: 600
 
-  Figure 4: LimeSDR USB v1.2 board connectors
+  Figure 4. LimeSDR USB v1.2 board connectors
 
 .. figure:: /images/LimeSDR-USB_v1.2_components_top.jpg
   :width: 600
 
-  Figure 5: LimeSDR USB v1.2 board top connectors and main components
+  Figure 5. LimeSDR USB v1.2 board top connectors and main components
 
 .. figure:: /images/LimeSDR-USB_v1.2_components_bot.jpg
   :width: 600
 
-  Figure 6: LimeSDR USB v1.2 board bottom connectors and main components
+  Figure 6. LimeSDR USB v1.2 board bottom connectors and main components
 
-Description of board components is given in the Table 1.
+Board components are described in Table 1.
 
 .. table:: Table 1. Board components
 
@@ -54,9 +54,9 @@ Description of board components is given in the Table 1.
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
   | R168, R169, R170, R171, |                         |                                                                                                            |
   |                         |                         |                                                                                                            |
-  | R174, R175, R178, R179  | 0 Ohm resistor          | FPGA (IC31) MSEL[3:0]. Active Serial Standard configuration scheme is selected by default.                 |
+  | R174, R175, R178, R179  | 0 Ω resistor            | FPGA (IC31) MSEL[3:0]. Active Serial Standard configuration scheme is selected by default.                 |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
-  | R75, R76, R77, R79      | 10 kOhm resistor        | USB3.0 microcontroller (IC6) boot configuration resistors                                                  |
+  | R75, R76, R77, R79      | 10 kΩ resistor          | USB 3.0 microcontroller (IC6) boot configuration resistors                                                 |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
   | J12                     | JTAG chain pin header   | USB 3.0 microcontroller's (IC6) debugging pin header, 0.05" pitch                                          |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
@@ -66,25 +66,25 @@ Description of board components is given in the Table 1.
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
   | J17                     | JTAG chain pin header   | FPGA (IC31) programming pin header for Altera USB-Blaster download cable, 0.05" pitch                      |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
-  |                         |                         | User defined FPGA (IC31) indication LED1 (nearest board edge if SMD, on the bottom if through-hole);       |
+  |                         |                         | FPGA (IC31) user indication LED1 (nearest board edge if SMD, on the bottom if through-hole).               |
   |                         |                         |                                                                                                            |
-  | LEDS1                   | Red-green status LEDs   | user defined FPGA indication LED2 (farthest board edge if SMD, on the top if through-hole)                 |
+  | LEDS1                   | Red-green status LEDs   | FPGA (IC31) user indication LED2 (farthest board edge if SMD, on the top if through-hole).                 |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
-  |                         |                         | USB 3.0 microcontroller (IC6) status indication LED (nearest board edge SMD, on the bottom through-hole);  |
+  |                         |                         | FX3 (IC6) status indication LED (nearest board edge if SMD, on the bottom if through-hole).                |
   |                         |                         |                                                                                                            |
-  | LEDS2                   | Red-green status LEDs   | board power indication LED (farthest board edge if SMD, on the top if through-hole)                        |
+  | LEDS2                   | Red-green status LEDs   | Board power indication LED (farthest board edge if SMD, on the top if through-hole).                       |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
   | **General user input/output**                                                                                                                                  |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
   | J18                     | Pin header              | 8 FPGA GPIOs, 0.1" pitch                                                                                   |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
-  | J19, J20                | Pin header              | 3.3V fan connection pin headers, 0.1" pitch (J19) and 0.05" pitch (J20)                                    |
+  | J19, J20                | Pin header              | 3.3 V fan connection pin headers, 0.1" pitch (J19) and 0.05" pitch (J20)                                   |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
   | **Memory devices**                                                                                                                                             |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
   | IC4, IC5                | DDR2 memory             | 1Gbit (64M x 16) DDR2 SDRAM with a 16-bit data bus                                                         |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
-  | IC2, IC3                | EEPROM                  | 64K (8K x 8) EEPROM, LMS7002 (IC1) MCU firmware (IC2), LMS7002M (IC1) data (IC3)                           |
+  | IC2, IC3                | EEPROM                  | 64K (8K x 8) EEPROM, LMS7002M (IC1) MCU firmware (IC2), LMS7002M (IC1) data (IC3)                          |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
   | IC11                    | EEPROM                  | 64K (8K x 8) EEPROM, USB 3.0 microcontroller (IC6) EEPROM                                                  |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
@@ -98,7 +98,7 @@ Description of board components is given in the Table 1.
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
   | **Clock circuitry**                                                                                                                                            |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
-  | XT4                     | VCTCXO                  | 30.72MHz oscillator, E5280LF                                                                               |
+  | XT4                     | VCTCXO                  | 30.72 MHz oscillator, E5280LF                                                                              |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
   | IC17                    | IC                      | Programmable clock generator for the FPGA (IC31) reference clock input and RF boards                       |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
@@ -110,9 +110,9 @@ Description of board components is given in the Table 1.
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
   | **Power supply**                                                                                                                                               |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
-  | J15                     | DC input jack           | External 6V - 12V DC power supply                                                                          |
+  | J15                     | DC input jack           | External 6–12 V DC power supply                                                                            |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
-  | J16                     | Pin header              | External 6V - 12V DC power supply                                                                          |
+  | J16                     | Pin header              | External 6–12 V DC power supply                                                                            |
   +-------------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
 
 A more detailed description is provided in the following sections.

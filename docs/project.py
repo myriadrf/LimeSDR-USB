@@ -3,7 +3,7 @@
 project = 'LimeSDR USB'
 copyright = '2016-2026 Lime Microsystems'
 author = 'Lime Microsystems'
-release = 'latest'
+release = 'v1.4'
 
 # These are used for the "Edit on GitHub" links.
 # github_repo_path should be set to the branch + path to the docs.
@@ -32,4 +32,4 @@ intersphinx_external = [
 archived = False
 
 # When True internal intersphinx targets point at stage.myriadrf.org.
-staging = True
+staging = False
